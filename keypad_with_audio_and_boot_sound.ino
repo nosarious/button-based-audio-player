@@ -1,10 +1,10 @@
- /* @file EventSerialKeypad.pde
-  || @version 1.0
-  || @author Alexander Brevig
-  || @contact alexanderbrevig@gmail.com
+ /* button-based-audio-player
+  || @version 1.5
+  || @author Gerry Straathof
+  || @contact nosemonger@gmail.com
   ||
   || @description
-  || | Demonstrates using the KeypadEvent.
+  || | read a button, play a file.
   || #
 */
 #include <Keypad.h>
