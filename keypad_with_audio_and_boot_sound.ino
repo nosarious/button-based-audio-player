@@ -8,6 +8,11 @@
   || #
 */
 #include <Keypad.h>
+
+//this is to identify and change the behavior of pins on the featherwing to 
+//allow them to be used as GPIO pins for the keyboard matrix
+// since the tpyical digital pins are used by the featherwing
+
 #define A5_INTERRUPT_PIN 19  // A5's interrupt is on raw channel 19
 #define A4_INTERRUPT_PIN 18  // A4's interrupt is on raw channel 18
 #define A3_INTERRUPT_PIN 17  // A3's interrupt is on raw channel 17
